@@ -15,7 +15,7 @@
 // let d=2;
 // console.log(c**d);
 
-// let a=25;
+// let a=25;                                                              Q=4
 // let b=4;
 // let c=a/b;
 // const decimalPart = c - Math.floor(c);
