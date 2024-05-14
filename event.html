@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">i am a box</div>
+        <button id="btn">click me</button>
+        <script>
+            let box = document.querySelector(".box");
+            let button = document.getElementById("btn");
+
+            // button.addEventListener("click", () => {
+            //     // console.log("Button clicked");
+            //     // alert("Button clicked");
+            //     // box.style.backgroundColor = "lightgreen";
+            //     box.innerHTML = "<h1>Content has been changed......</h1>"
+            // })
+
+            // button.addEventListener("dblclick", () => {
+            //     box.innerHTML = "<b>Button has been double clicked</b>"
+            // })
+
+            // button.addEventListener("contextmenu", () => {
+            //     alert("Button has been right clicked");
+            // })
+
+            document.addEventListener("keydown", (e) => {
+                // console.log(e);
+                // console.log(e.key);
+                console.log(e.key, e.keyCode);
+            })
+        </script>
+    </div>
+</body>
+</html>
