@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .grandparent{
+        background-color: lightblue;
+        height: 8rem;
+        width: 8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .parent{
+        background-color: lightgreen;
+        height: 6rem;
+        width: 6rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .child{
+        background-color:aqua;
+        height: 3rem;
+        width: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    </style>
+</head>
+<body>
+    <div class="grandparent">
+        gp
+        <div class="parent">
+            p
+            <div class="child">
+                c
+            </div>
+        </div>
+    </div>
+    <button id="btn">click me</button>
+    <script src="./eventbubbling.js"></script>
+</body>
+</html>
