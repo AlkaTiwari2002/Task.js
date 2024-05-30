@@ -104,46 +104,46 @@
 // Leave ATM
 
 
-function enterATM(){
-    console.log("Enter the ATM");
-    console.log("Insert the card");
-    Processing(enterPin);
-}
+// function enterATM(){
+//     console.log("Enter the ATM");
+//     console.log("Insert the card");
+//     Processing(enterPin);
+// }
 
-function Processing(enterPin){
-    setTimeout(() => {
-        console.log("Processing");
-        enterPin(withdrawMoney);
-    }, 5000);
-}
+// function Processing(enterPin){
+//     setTimeout(() => {
+//         console.log("Processing");
+//         enterPin(withdrawMoney);
+//     }, 5000);
+// }
 
-function enterPin(withdrawMoney){
-    setTimeout(() =>{
-        console.log("Enter the Pin");
-        withdrawMoney(collectCash);
-    }, 2000);
-}
+// function enterPin(withdrawMoney){
+//     setTimeout(() =>{
+//         console.log("Enter the Pin");
+//         withdrawMoney(collectCash);
+//     }, 2000);
+// }
 
-function withdrawMoney(collectCash){
-    setTimeout(() => {
-        console.log("Withdraw the Money");
-        collectCash(leaveATM);
-    }, 5000);
-}
+// function withdrawMoney(collectCash){
+//     setTimeout(() => {
+//         console.log("Withdraw the Money");
+//         collectCash(leaveATM);
+//     }, 5000);
+// }
 
-function collectCash(leaveATM){
-    setTimeout(() =>{
-        console.log("Collect the Cash");
-        console.log("Count the Cash");
-        leaveATM();
-    },5000);
-}
+// function collectCash(leaveATM){
+//     setTimeout(() =>{
+//         console.log("Collect the Cash");
+//         console.log("Count the Cash");
+//         leaveATM();
+//     },5000);
+// }
 
-function leaveATM(){
-    console.log("Leave the ATM");
-}
+// function leaveATM(){
+//     console.log("Leave the ATM");
+// }
 
-enterATM();
+// enterATM();
 
 
 // function sayHii (callback){
@@ -154,4 +154,5 @@ enterATM();
 
 // const result = sayHii(sayBye);
 // console.log(result);
+
 
